@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica, sans-serif
+}
+body{
+    background-color: aquamarine;
+}
+#calculator{
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+table td{
+    display: inline-block;
+}
+.btn{
+    margin: 3px;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: chocolate;
+    color: #ffffff;
+    font-size:16px ;
+    font-weight: 550;
+    transition: all 500ms ease-in-out;
+}
+.btn:hover{
+    background-color: rgb(196, 118, 63);
+}
